@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+
+  <body>
+    <div class="menu-layout">
+      <div class="menu-item">Home</div>
+      <div class="menu-item">Products & Services</div>
+      <div class="menu-item" > <a href="contactus.html">Contact Us</a></div>
+    </div>
+
+    <div class="column-layout">
+      <div class="main-column">
+        <h1>Welcome to Specialty Baking With Bethany</h1>
+        <p>
+          Welcome to the place where you can learn all about different recpies
+          that you'll love to make. These are not only delicious recipes but
+          they are super fun and tasty. With any of these recipes you'll be able
+          to follow along easily and make the most delicious treats that
+          everyone will be talking about.
+        </p>
+      </div>
+
+      <div class="sidebar-two">
+        <img
+          id="logo"
+          src="https://cdn.glitch.global/2e012575-c995-4348-a0c2-e0218832056c/4f2aece8-72b9-4cdc-870a-5730d48f59aa.image.png?v=1669063326893"
+        />
+        <ul>
+          <li>Recipes</li>
+          <li>Tools</li>
+          <li>Decoration</li>
+        </ul>
+      </div>
+    </div>
+    <div id="specialoffers" class="call-outs-container">
+      <div class="call-out">
+        <h4>Special Recipes</h4>
+        <p>
+          Want to learn more fun recipes for the holidays and different events.
+          Look no further than here for all different pies, cakes, brownies,
+          cookies, shortbreads, macroons, cheesecakes, and more.
+          <br />
+          <button type="button">Learn More</button>
+        </p>
+      </div>
+
+      <div class="call-out">
+        <h4>Decorations</h4>
+        <p>
+          Have you ever wanted to learn how to make baked goods not only taste
+          amazing but look good too? From all different colored frostings and
+          piping techniques to all the different edible garnishes that you could
+          imagine. <br />
+          <button type="button">Learn More</button>
+        </p>
+      </div>
+    </div>
+      <div style="text-align:center;">
+    <button id="hidebutton" onclick="hideAds()">
+      Hide Offers
+    </button>
+  </div>
+    
+    <script>
+    function hideAds() {
+    var x=document.getElementById("specialoffers");
+    var y=document.getElementById("hidebutton");
+    x.style.display="none";
+    y.style.display="none";
+    }
+    </script>
+  </body>
+</html>
